@@ -1,0 +1,6 @@
+#Primeira Forma Normal
+    Para uma tabela está na primeira forma normal ela precisa atender aos seguintes requesitos:
+        -Possuir somente atributos atômicos(o atributo é indivisível)
+        -Não possuir mais de um valor por atributo
+        -Possui uma chave primária
+        -Não possuir atributos que se isolados formarem outra tabela
