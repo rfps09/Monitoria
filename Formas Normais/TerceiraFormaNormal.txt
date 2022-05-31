@@ -1,0 +1,5 @@
+#Terceira Forma Normal
+    Para uma tabela está na terceira forma normal ela precisa atender aos seguintes requesitos:
+        -Precisa está na segunda forma normal
+        -Não pode possuir dependências transitivas
+        -Não pode possuir atributos não-chave que dependam de outros atributos não-chave 
