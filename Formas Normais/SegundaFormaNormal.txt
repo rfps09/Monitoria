@@ -1,0 +1,6 @@
+#Segunda Forma Normal
+    Para uma tabela está na segunda forma normal ela precisa atender aos seguintes requesitos:
+        -Precisa está na primeira forma normal
+        -Todos os atributos devem depender de toda a chave primária(caso composta)
+        -Os atributos não pode depender de somente uma parte da chave
+        -Em caso de atributos que só dependam de uma parte da chave, deve ser criado uma nova tabela com esses atributos
