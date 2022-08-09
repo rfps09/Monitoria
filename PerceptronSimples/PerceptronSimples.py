@@ -17,7 +17,7 @@ W = np.zeros(3)
 
 e = np.zeros(q)
 
-def ativicao(valor):
+def funcaoDeAtivicao(valor):
     if valor < 0.0:
         return -1
     return 1
@@ -28,7 +28,7 @@ for i in range(numEpocas):
         
         V = np.dot(W, Xb)
         
-        Yr = ativicao(V)
+        Yr = funcaoDeAtivicao(V)
         
         e[j] = Y[j] - Yr
         
