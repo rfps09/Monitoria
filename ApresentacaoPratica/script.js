@@ -54,7 +54,7 @@ window.addEventListener('keyup', function(event){
 function render() {
     var color = "";
 
-    var distancia = Math.sqrt(Math.pow(Math.abs(x-xStatic),2) + Math.pow(Math.abs(y-yStatic),2))
+    var distancia = Math.sqrt(Math.pow(x-xStatic,2) + Math.pow(y-yStatic,2))
 
     if(distancia <= raio+raioStatic) color = "red";
     else color = "blue";
