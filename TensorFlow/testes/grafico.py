@@ -9,9 +9,10 @@ X2 = np.array([0,1,0,1])
 X = np.vstack((X1,X2))
 Y = np.array([0,1,1,1])
 W = np.array([0,1,-1])
+W = np.zeros(3)
 e = np.zeros(q)
 bias = 1
-eta = 0.8
+eta = 0.1
 
 def draw_decision_boundary(a,b,c):
     space = np.linspace(-10,10,100)
@@ -24,6 +25,8 @@ def draw_decision_boundary(a,b,c):
     points_x_blue = [0]
     points_y_blue = [0]
 
+    plt.xlim([-10,10])
+    plt.ylim([-10,10])
     plt.plot(space,linear,'r')
     plt.plot(points_x_green,points_y_green,'o',markerfacecolor="green",markeredgecolor="green")
     plt.plot(points_x_blue,points_y_blue,'o',markerfacecolor="blue",markeredgecolor="blue")
@@ -38,6 +41,7 @@ for j in range(numEpocas):
     for i in range(q):
         Xb = np.hstack((bias, X[:,i]))
         V = np.dot(W,Xb)
+        print(V)
         Yr = funcaoDeAtivicao(V)
         e[i] = Y[i] - Yr
         W = W + eta*e[i]*Xb
