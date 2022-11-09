@@ -1,8 +1,7 @@
 # Semana Acadêmica
 Códigos desenvolvidos durante a Semana Acadêmica de 2022 da UEPA
 
-Para rodar os códigos localmente no seu computador
-
+Para rodar os códigos localmente no seu computador<br/>
 As configuração de ambientes necessárias são:
 
 - Python 3.10.x (https://www.python.org/downloads/), obs: ao instalar, marcar a opção de adicionar ao PATH, ou terá que adicionar manualmente.
