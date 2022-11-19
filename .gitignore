@@ -352,7 +352,7 @@ MigrationBackup/
 .ionide/
 
 #rfps09
-.data
-.csv
-.png
-.jpg
+*.data
+*.csv
+*.png
+*.jpg
